@@ -18,7 +18,7 @@ import java.util.List;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     private List<ChatData> mDataset;
-
+    private String nick;
     // Provide a reference to the views for each data item
     // Complex data items may need more than one view per item, and
     // you provide access to all the views for a data item in a view holder
@@ -66,5 +66,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
     @Override
     public int getItemCount() {
         return mDataset!= null ? mDataset.size() : 0;
+    }
+
+    public void addChat(ChatData chatData){
+        mDataset.add(chatData);
+        notifyItemInserted(mDataset.size()-1);
     }
 }

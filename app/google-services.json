@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "720312826620",
+    "firebase_url": "https://chatting-project-8ec91.firebaseio.com",
+    "project_id": "chatting-project-8ec91",
+    "storage_bucket": "chatting-project-8ec91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720312826620:android:302ba5851a07c66ba9b579",
+        "android_client_info": {
+          "package_name": "com.example.iasachat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720312826620-l85vqgmmb21nggnke8m691ifkcdop4ic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSbma4gXFaSP7MdHGmDfilk0w4fihu7zU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720312826620-l85vqgmmb21nggnke8m691ifkcdop4ic.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
